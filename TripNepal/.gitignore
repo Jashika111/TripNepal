@@ -1,0 +1,26 @@
+# --- Python & Environment ---
+# Compiled bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual Environment (NEVER push this)
+venv/
+.venv/
+env/
+
+# --- Environment & Secrets ---
+# Sensitive API keys or credentials
+.env
+
+# --- IDE/Editor Settings ---
+# Settings specific to your computer
+.vscode/
+.idea/
+.DS_Store
+
+# --- OS/System Files ---
+# Ignore system-generated trash
+Thumbs.db
+*.log
