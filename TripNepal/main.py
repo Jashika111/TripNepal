@@ -94,7 +94,7 @@ elif st.session_state.current_view == "results_display":
                 )
 
                 st.markdown(
-                    f"**📍 Location:** {spot['location'].capitalize()}"
+                    f"** Location:** {spot['location'].capitalize()}"
                 )
 
                 st.markdown(
@@ -150,7 +150,7 @@ elif st.session_state.current_view == "results_display":
                 )
 
                 st.caption(
-                    f"📍 {spot['location'].capitalize()} • "
+                    f" {spot['location'].capitalize()} • "
                     f"{spot['mood'].capitalize()} • "
                     f"{spot['budget'].capitalize()} budget"
                 )

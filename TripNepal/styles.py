@@ -24,7 +24,7 @@ def apply_custom_theme():
         <style>
         /* Fixed photographic background using your local Sarangkot image with a 20% white transparency layer */
         .stApp {{
-            background-image: linear-gradient(rgba(255, 253, 247, 0.30), rgba(255, 253, 247, 0.30)), 
+            background-image: linear-gradient(rgba(255, 253, 247, 0.50), rgba(255, 253, 247, 0.50)), 
                               url("{bg_image_css}");
             background-size: cover !important;
             background-position: center !important;
@@ -107,6 +107,7 @@ div[data-testid="stVerticalBlockBorderWrapper"]:first-of-type {{
     padding: 25px !important;
     box-shadow: 0 8px 32px rgba(0,0,0,0.25) !important;
 }}
+
+
         </style>
     """, unsafe_allow_html=True)
-
